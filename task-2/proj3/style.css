@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.part1{
+    height: 50px;
+    width: 20%;
+   
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.part1 img{
+    height: 70%;
+    padding: 5px;
+}
+
+.part1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.part2{
+    height: 50px;
+    width: 40%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.part2 h6{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.part3{
+    height: 50px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part3 button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #141414;
+    border: none;
+    color: white;
+}
+
+.section1 h1{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-size: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section2 .nav-bar2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.section2 .nav-bar2 button{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 10%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: #141414;
+    border: none;
+}
+
+.section2 .nav-bar2 #all{
+    width: 8%;
+    background-color: orangered;
+}
+
+.section3 .cards{
+    height: 300px;
+    width: auto;
+    
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section3 .cards .card{
+    height: 310px;
+    width: 300px;
+ 
+    
+    border-radius: 20px;
+    background-color: #141414;
+}
+
+.section3 .cards .card img{
+    height: 180px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.section3 .cards .card button{
+    padding: 5px;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    width: 30%;
+    background-color: #571f0b;
+    color: orange;
+    border: none;
+}
+
+.section3 .cards .card h1{
+    font-size: 18px;
+    margin: 5px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section3 .cards .card p{
+    padding-left: 15px;
+    font-size: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
