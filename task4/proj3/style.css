@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1.2fr 0.7fr;
+    grid-template-rows: 140px 140px 140px;
+    padding: 20px;
+    gap: 20px;
+
+    grid-template-areas: 
+    "top-left top-center1 top-center2 top-right"
+    "center-left1 center-left2 center right-center1"
+    " center-left1 center-left2 center right-center2"
+    "bottom-left bottom-left bottom-right bottom-right"
+    ;
+}
+
+
+.top-left{
+    background-color: yellow;
+    grid-area: top-left;
+    border-radius:20px;
+}
+.top-center1{
+    background-color: red;
+    grid-area: top-center1;
+    border-radius:20px;
+}
+.top-center2{
+    background-color: green;
+    grid-area: top-center2;
+    border-radius:20px;
+}
+.top-right{
+    background-color: blue;
+    grid-area: top-right;
+    border-radius:20px;
+}
+.center-left1{
+    background-color: blueviolet;
+    grid-area: center-left1;
+    border-radius:20px;
+}
+.center-left2{
+    background-color: brown;
+    grid-area: center-left2;
+    border-radius:20px;
+}
+.center{
+    background-color: burlywood;
+    grid-area: center;
+    border-radius:20px;
+}
+.right-center1{
+    background-color: cadetblue;
+    grid-area: right-center1;
+    border-radius:20px;
+}
+.right-center2{
+    background-color: rgb(210, 30, 210);
+    grid-area: right-center2;
+    border-radius:20px;
+}
+.bottom-left{
+    background-color: coral;
+    grid-area: bottom-left;
+    border-radius:20px;
+}
+.bottom-right{
+    background-color: crimson;
+    grid-area: bottom-right;
+    border-radius:20px;
+}
