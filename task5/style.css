@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    margin: 20px;
+    background-position: center;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.back-image{
+    width: 100%;
+    
+    background-size: cover;
+    padding: 20px;
+}
+
+
+nav .part1{
+    height: 50px;
+    width: 5%;
+    
+}
+
+nav .part1 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+nav .part2{
+    height: 50px;
+    width: 30%;
+    
+    display:   flex ;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav .part2 h5{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+nav .part2 button{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+
+
+
+
+.center h1{
+    left: 40%;
+    top: 50%;
+    position: absolute;
+    font-size:100px;
+    color: white;
+}
+
+.center p{
+    position: absolute;
+    left: 43%;
+    top: 65%;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.center hr{
+    width: 50px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+}
+
+section .content h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section .content hr{
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    left: 46%;
+    margin: 20px;
+}
+
+section .cards{
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    padding: 30px 20px ;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+section .cards .card-content{
+    height: 600px;
+    width: 400px;
+     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.781);
+}
+
+
+section .cards .card-content img{
+    height: 300px;
+    width: 395px;
+}
+
+
+section .cards .card-content hr{
+    margin-top: 100px;
+    width: 50px;
+    margin-left: 160px;
+    height: 5px;
+    background-color: black;
+}
+
+
+section .cards .card-content p{
+    text-align: center;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+
+section .big{
+    background-color: whitesmoke;
+    box-shadow: 0 30px 60px rgba(137, 134, 134, 0.669);
+    height: 90%;
+    width: auto;
+    padding: 20px;
+    display: flex;
+
+}
+
+section .big .big-img img{
+    height: 650px;
+    width: 800px;
+}
+
+section .big .content {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+    position: relative;
+}
+
+section .big .content hr{
+    position: absolute;
+    left: 40%;
+    top: 15%;
+}
+
+
+section .big .content p{
+    text-align: center;
+    margin: 50px;
+    font-size: 25px;
+}
+
+
+section .subscribe{
+    background-color: whitesmoke;
+    box-shadow: 0 30px 60px rgba(137, 134, 134, 0.669);
+    height: 70%;
+    width: auto;
+    padding: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+section .subscribe .sub-content h1{
+    padding: 20px;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+section .subscribe .sub-content p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+section .subscribe .sub-content input{
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    width: 300px;
+    border: none;
+    height: 50px;
+}
+
+section .subscribe .sub-content button{
+    padding: 5px;
+    font-size: 25px;
+    
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    width: auto;
+    background-color: whitesmoke;
+}
+
+footer .icons{
+    font-size: 50px;
+
+}
+
+footer .f-content{
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
